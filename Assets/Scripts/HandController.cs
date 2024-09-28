@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class HandController : MonoBehaviour
 {
     public InputActionAsset playerController;
-    
+
     InputAction LeftTriggerButton;
     InputAction LeftGripButton;
     InputAction ButtonA;
@@ -17,14 +17,6 @@ public class HandController : MonoBehaviour
     InputAction ButtonX;
     InputAction ButtonY;
 
-    public float getLeftTriggerValue;
-    public float getLeftGripValue;
-    public Vector2 getLeftThumbValue;
-
-    public float getRightTriggerValue;
-    public float getRightGripValue;
-    public Vector2 getRightThumbValue;
-
     public InputActionProperty LeftTriggerValue;
     public InputActionProperty LeftGripValue;
     public InputActionProperty LeftThumbValue;
@@ -32,6 +24,20 @@ public class HandController : MonoBehaviour
     public InputActionProperty RightTriggerValue;
     public InputActionProperty RightGripValue;
     public InputActionProperty RightThumbValue;
+
+    public InputActionProperty HMD_Position;
+    public InputActionProperty HMD_Rotation;
+
+    public Vector3 get_HMD_Position;
+    public Quaternion get_HMD_Rotation;
+
+    public float getLeftTriggerValue;
+    public float getLeftGripValue;
+    public Vector2 getLeftThumbValue;
+
+    public float getRightTriggerValue;
+    public float getRightGripValue;
+    public Vector2 getRightThumbValue;
 
     private void Start()
     {
@@ -122,5 +128,10 @@ public class HandController : MonoBehaviour
         getRightGripValue = gripValueR;
         Vector2 thumbValueR = RightThumbValue.action.ReadValue<Vector2>();
         getRightThumbValue = thumbValueR;
+
+        Vector3 HMD_Pos = HMD_Position.action.ReadValue<Vector3>();
+        get_HMD_Position = HMD_Pos;
+        Quaternion HMD_Rot = HMD_Rot = HMD_Rotation.action.ReadValue<Quaternion>();
+        get_HMD_Rotation = HMD_Rot;
     }
 }

@@ -2250,12 +2250,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerController: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  getLeftTriggerValue: 0
-  getLeftGripValue: 0
-  getLeftThumbValue: {x: 0, y: 0}
-  getRightTriggerValue: 0
-  getRightGripValue: 0
-  getRightThumbValue: {x: 0, y: 0}
   LeftTriggerValue:
     m_UseReference: 1
     m_Action:
@@ -2328,6 +2322,38 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  HMD_Position:
+    m_UseReference: 1
+    m_Action:
+      m_Name: HMD_Position
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: cfb0f956-bf79-4fbd-874b-6e5bec568ad2
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 7862207684358717888, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  HMD_Rotation:
+    m_UseReference: 1
+    m_Action:
+      m_Name: HMD_Rotation
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: a0d7f666-f791-4f9e-8da6-c21b38149642
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -530380113134220495, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  get_HMD_Position: {x: 0, y: 0, z: 0}
+  get_HMD_Rotation: {x: 0, y: 0, z: 0}
+  getLeftTriggerValue: 0
+  getLeftGripValue: 0
+  getLeftThumbValue: {x: 0, y: 0}
+  getRightTriggerValue: 0
+  getRightGripValue: 0
+  getRightThumbValue: {x: 0, y: 0}
 --- !u!4 &1762673739
 Transform:
   m_ObjectHideFlags: 0
