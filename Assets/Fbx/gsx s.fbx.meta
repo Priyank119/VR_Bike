@@ -3,7 +3,87 @@ guid: a5c9d296ab3faca479a1ae6619ca778a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ban
+    second: {fileID: 2100000, guid: 992d036d26e4afd42a87ca6ff27518d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: baut_suspensi
+    second: {fileID: 2100000, guid: 57423449b336f7240a85f0a321b1b893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: besi_metal
+    second: {fileID: 2100000, guid: 7a6720ec068b6b542ae367a397dab56d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hitam
+    second: {fileID: 2100000, guid: ee8399c8dba7cda4bbb1761ee3f4fcbd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kaca_lampu
+    second: {fileID: 2100000, guid: 917b04a5d4ba28f4f85b260a59795ecb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kaca_lcd
+    second: {fileID: 2100000, guid: f21701fa31f581246ac0a5e2303c6d04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kaca_sein
+    second: {fileID: 2100000, guid: 5233c2a386eb68a4e8313f639bca883c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kuning
+    second: {fileID: 2100000, guid: 3ecb6bc1987bb0f42aeafab06022c342, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: merah
+    second: {fileID: 2100000, guid: e1e845018e3bd4947be6697f9d25f7cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal
+    second: {fileID: 2100000, guid: d14173cf85416074da3fa7a34c3c8254, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rem
+    second: {fileID: 2100000, guid: dfb3a4df646b99b40ba22698249c686f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sein
+    second: {fileID: 2100000, guid: ed9b24aea72e78d44b05583ef6b2fb2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: silincer
+    second: {fileID: 2100000, guid: bdb77537285650c4da9cd78d619eb727, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standard
+    second: {fileID: 2100000, guid: e57e9a1494b92dd49bd8029476fd5e0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tabung
+    second: {fileID: 2100000, guid: 65a9efac2b21d7f48b405ac5c46c5d3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: warna
+    second: {fileID: 2100000, guid: 4cf737e289756194cb6f987ce83651d7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
